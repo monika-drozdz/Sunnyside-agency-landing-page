@@ -1,0 +1,21 @@
+
+$soft-red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$graphic-text: hsl(167, 40%, 24%);
+$photography-text: hsl(198, 62%, 26%);
+$footer: hsl(168, 34%, 41%);
+$bg-footer: hsl(168, 34%, 70%);
+$vdk-des-blue: hsl(212, 27%, 19%);
+$vdk-grayish-blue: hsl(213, 9%, 39%);
+$dk-grayishblue: hsl(232, 10%, 55%);
+$grayish-blue: hsl(210, 4%, 67%);
+$white: hsl(0, 0%, 100%);
+$contact-btn: hsl(203, 100%, 72%);
+$yellow-hov-btn: hsl(51, 100%, 66%);
+
+@mixin flex($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
